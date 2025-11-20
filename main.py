@@ -3,7 +3,7 @@ import time
 from ultralytics import YOLO
 
 # 1. Load model hasil training
-model = YOLO("my_model_ver2.pt")   # ganti jika namanya lain
+model = YOLO("my_model_ver3.pt")   # ganti jika namanya lain
 model.to("cpu")
 
 # 2. Kamera
